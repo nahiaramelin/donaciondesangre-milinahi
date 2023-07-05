@@ -1,0 +1,46 @@
+body{
+    font-family: 'Urbanist', sans-serif;
+}
+
+.gotita{
+    height: 110px;
+    width: 110px;
+    position: relative;
+    left: 15px;
+    top: -108px;
+    transition: 2s;
+}
+ .gotita:hover{
+    transform: scale(0.9);
+ }
+ header{
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(130, 205, 197);
+ }
+ .text{
+    text-align: center;
+    position: absolute;
+    top: -5px;
+    left: 10%;
+    color: white;
+    text-shadow: black 0px 0px 7px;
+    font-size: 37px;
+ }
+ .textito{
+    font-size: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #d0d0d0 3px;
+    border-radius: 11px;
+    padding: 5px;
+    position: absolute;
+    top: 130px;
+    left: auto;
+    background-color: white;
+    transition: 2s;
+ }
+ .textito:hover{
+    transform: scale(0.9);
+ }
